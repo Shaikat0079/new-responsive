@@ -102,7 +102,7 @@
 }
 
 .tools-info h1{
-    margin-top: 10px 0;
+    margin-top: 20px;
 }
 .tools-info p{
     margin: 20px 0;
@@ -122,4 +122,63 @@
 
 #js-code{
     background-color:  rgba(255, 255, 0, 0.205);
+}
+
+.next-target{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.frame{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 50px 0;
+    padding: 50px;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+.frame img{
+    height: 100px;
+    width: 100px;
+}
+
+.frame-des a{
+    color: black;
+    font-weight: 600;
+}
+.frame-des p{
+    margin: 20px 0;
+}
+
+.support{
+    color:tomato;
+    width: 90%;
+    text-align: center;
+    background-image: url(./assets/handshake.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+.support p{
+    margin: 30px;
+}
+
+input[type=text]{
+    padding: 10px 200px;
+    border-radius: 5px;
+    border: 1px solid aqua;
+}
+input[type=submit]{
+    padding: 10px;
+    font-family: "Azeret Mono", serif;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    font-weight: bold;
+    
 }
