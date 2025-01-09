@@ -155,14 +155,14 @@
 
 .support{
     color:tomato;
-    width: 90%;
+    width: 80%;
     text-align: center;
     background-image: url(./assets/handshake.jpg);
     background-size: cover;
     background-position: center;
     padding: 30px;
     border-radius: 10px;
-    margin: 20px auto;
+    margin: 50px auto;
 }
 
 .support p{
@@ -180,5 +180,11 @@ input[type=submit]{
     border-radius: 5px;
     border: 1px solid aqua;
     font-weight: bold;
-    
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 20px auto;
 }
