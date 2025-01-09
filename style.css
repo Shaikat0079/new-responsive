@@ -16,7 +16,7 @@
   margin: 10px 20px;
 }
 
-.resume-btn{
+.resume-btn,.banner-btn{
     padding: 20px;
     background-color: whitesmoke;
     border: none;
@@ -27,4 +27,19 @@
 }
 .styling-a{
     color: aqua;
+}
+.banner-container{
+    margin: 40px 2.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./assets/Hero-bg.png);
+    padding: 80px;
+    gap: 30px;
+    border: 1px solid grey;
+}
+
+.banner-btn{
+    color: whitesmoke;
+    background-color: black;
 }
