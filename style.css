@@ -16,7 +16,7 @@
   margin: 10px 20px;
 }
 
-.resume-btn,.banner-btn{
+.resume-btn,.banner-btn,.dev-btn{
     padding: 20px;
     background-color: whitesmoke;
     border: none;
@@ -42,4 +42,32 @@
 .banner-btn{
     color: whitesmoke;
     background-color: black;
+}
+
+.dev-container{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.info{
+    text-align: center;
+}
+
+.image-description{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin: 40px 20px;
+}
+
+.description{
+    text-align: left;
+}
+
+.dev-btn{
+    padding: 10px 25px;
+}
+
+.description p{
+    margin: 25px 0;
 }
