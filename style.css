@@ -45,7 +45,7 @@
 }
 
 .dev-container{
-    width: 60%;
+    width: 65%;
     margin: 0 auto;
 }
 
@@ -53,11 +53,19 @@
     text-align: center;
 }
 
+.info p{
+    margin: 15px 0;
+}
+
 .image-description{
     display: flex;
     align-items: center;
     gap: 30px;
     margin: 40px 20px;
+    border: 1px solid aquamarine;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 5px 5px 15px aquamarine;
 }
 
 .description{
